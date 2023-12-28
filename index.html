@@ -8,23 +8,45 @@
     <link rel="stylesheet" href="assets/css/reset.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="logo">Library</h1>
-    </header>
-    <div class="add-button-wrapper">
-        <button class="add-book-button">+ Add Book</button>
-    </div>
-    <section class="books-section">
-        <article class="book-item">
-            <p class="title">Lorem Ipsum</p>
-            <p class="author">by Lorem Ipsum</p>
-            <p class="pages">Pages:100</p>
-            <hr>
-            <button class="btn-read">Read</button>
-            <button class="btn-delete">Delete</button>
-            <hr>
-            <p class="completed">Completed</p>
-        </article>
-    </section>
+    <!-- <div class="fade"> -->
+        <!-- <div class="fade-item"></div> -->
+        <header class="header">
+            <h1 class="logo">Library</h1>
+        </header>
+        <div class="add-button-wrapper">
+            <button class="add-book-button">+ Add Book</button>
+        </div>
+        <section class="books-section">
+            <article class="book-item">
+                <p class="title">Lorem Ipsum</p>
+                <p class="author">by Lorem Ipsum</p>
+                <p class="pages">Pages:100</p>
+                <hr>
+                <button class="btn-read">Read</button>
+                <button class="btn-delete">Delete</button>
+                <hr>
+                <p class="completed">Completed</p>
+            </article>
+        </section>
+    <!-- </div> -->
+    <dialog>
+        <form method="dialog">
+          <div class="form-group">
+            <input type="text" name="title" id="title" placeholder="Title">
+          </div>
+          <div class="form-group">
+            <input type="text" name="author" id="author" placeholder="Author">
+          </div>
+          <div class="form-group">
+            <input type="number" name="pages" id="pages" placeholder="Pages">
+          </div>
+          <div class="form-group" style="display: flex">
+            <p style="color: #848484;">Read</p>
+            <input type="checkbox" name="read" id="read" style="width: 20px;">
+          </div>
+          <button class="btn-submit">Submit</button>
+        </form>
+      </dialog>
+      <script src="assets/js/main.js"></script>
 </body>
 </html>
