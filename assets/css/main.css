@@ -140,6 +140,7 @@ dialog form .form-group input
     background-color: rgb(97, 181, 97);
     color: #FFF;
     font-size: 15px;
+    cursor: pointer;
     padding: 7px 0;
 }
 
