@@ -1,0 +1,109 @@
+body
+{
+    background-color: rgb(240, 240, 240);
+}
+
+.header
+{
+    text-align: center;
+    background-color: rgb(119, 188, 227);
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 2rem 0;
+}
+
+.header .logo
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.add-button-wrapper
+{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.add-book-button
+{
+    margin: auto;
+    padding: 10px 25px;
+    border: 1px solid rgb(119, 188, 227);
+    border-radius: 10px;
+    color: rgb(119, 188, 227);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.add-book-button:hover
+{
+    background-color: rgb(119, 188, 227);
+    color: rgb(240, 240, 240);
+}
+
+.books-section
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 100px);
+    padding: 0 50px;
+}
+
+.book-item
+{
+    width: 300px;
+    background-color: rgb(183, 209, 224);
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 40px;
+}
+
+.book-item .title
+{
+    font-size: 2rem;
+    color: rgb(50, 87, 108);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.book-item .author
+{
+    font-size: 1rem;
+    color: rgb(50, 87, 108);
+    margin-bottom: 10px;
+}
+
+.book-item .completed
+{
+    color: rgb(50, 87, 108);
+}
+
+.book-item .pages
+{
+    font-size: 0.8rem;
+    color: rgb(50, 87, 108);
+}
+
+.book-item button
+{
+    border:none;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.book-item .btn-read
+{
+    
+    background-color: rgb(57, 169, 57);
+    color: #FFF;
+}
+
+.book-item .btn-delete
+{
+    
+    background-color: rgb(208, 56, 56);
+    color: #FFF;
+}
