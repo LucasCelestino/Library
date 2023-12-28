@@ -99,6 +99,8 @@ body
     
     background-color: rgb(57, 169, 57);
     color: #FFF;
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 .book-item .btn-delete
@@ -106,6 +108,7 @@ body
     
     background-color: rgb(208, 56, 56);
     color: #FFF;
+    cursor: pointer;
 }
 
 dialog::backdrop
